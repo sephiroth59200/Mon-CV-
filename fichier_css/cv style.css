@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face{
+font-family: "Raleway";
+src:url(../Police/Raleway-VariableFont_wght.woff);
+src:url(../Police/Raleway-Italic-VariableFont_wght.woff);
+src:url(../Police/Raleway-VariableFont_wght.ttf)format('truetype');
+src:url(../Police/Raleway-Italic-VariableFont_wght.ttf)format('truetype');
+
+}
+    
+    #Photo-de-Profil{
+        cursor: zoom-in;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px #782221;
+        box-shadow: 10px,10px,8px,10px,black;
+    }
+
+
+    #Photo-de-Profil:active{
+        height: 1160px;
+        width: 1160px;
+        
+
+
+    }
+
+    img{
+        
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 20%;
+        }
+
+
+
+
+#mon-nom{
+color:#FFFFFF;
+font-family: "Lato",sans-serif;
+
+}
+
+#Metier{
+color:#FFFFFF;
+font-family: "Lato",sans-serif; 
+}
+
+
+
+header{
+display:flex;
+background-color: #782221;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+#DIP{
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;
+}
+#DIP:hover{
+border-right-width : 50px;
+border-right-color : rgb(87,45,45);
+border-right-style : solid;
+}
+
+
+#Comp{    
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;
+}
+#Comp:hover{
+border-right-width : 50px;
+border-right-color : rgb(87,45,45);
+border-right-style : solid;
+    
+}
+
+
+#Contact{
+height: 100px;    
+display: flex;
+background-color: #2c1d27;
+flex-direction: row;
+justify-content:space-around;
+
+align-items:center;
+font-family: "Raleway";
+
+}
+
+
+#Adresse{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+color:#FFFFFF;
+text-decoration: none;
+}
+
+#Adresse:hover{
+text-decoration:underline;
+
+
+}
+#Adresse-Mail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:#FFFFFF;
+    text-decoration: none;
+   
+}
+
+#Adresse-Mail:hover{
+text-decoration:underline;
+
+
+}
+#Numéro-de-Tel{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+
+#Numéro-de-Tel:hover{
+text-decoration: underline;
+
+}
+
+
+
+#Separation{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+
+
+}
+
+#MenuDroite{
+width: 900px;
+
+}
+
+body{
+width: 1160px;
+position: absolute;left: 30%;
+border-right:2px solid;
+
+
+}
+
+
+footer{
+display:flex;
+width:1160px;
+height:100px;
+justify-content: space-evenly;
+flex-direction: row;
+background-color: #782221 ;
+}
+#Copyright{
+display: flex;    
+Color:#FFFFFF;
+justify-content:space-evenly;
+flex-direction: row;
+align-items: end;
+}
+
+
+
+
+
+#Exp{
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;
+}
+
+#Exp:hover{
+border-right-width : 50px;
+border-right-color : rgb(87,45,45);
+border-right-style : solid;
+
+
+}
+
+#Menu1{
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;
+}
+
+#Texte1{
+font-family: "Raleway";
+text-indent: 20px;
+color: #FFFFFF;
+text-align: justify;    
+}
+
+#MenuGauche{
+background-color: #782221;
+width: 230px;
+}
+
+#Menu2{
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;
+}
+
+#Menu3{
+background-color: #dbc2a4;
+font-family: "Lato",sans-serif;    
+}
+
+#ListeGauche1{
+font-family: "Raleway";    
+color: #FFFFFF;
+}
+#ListeGauche2{
+font-family: "Raleway";     
+color:#FFFFFF;    
+}
+
+#Metier1{
+font-family: "Raleway";    
+}
+#Metier2{
+font-family: "Raleway";      
+}
+#Metier3{
+font-family: "Raleway";  
+}
+#Date1{
+font-family: "Raleway";  
+}
+#Date2{
+font-family: "Raleway";  
+}
+#Date3{
+font-family: "Raleway";  
+}
+#Liste1{
+font-family: "Raleway";  
+}
+#Liste2{
+font-family: "Raleway";  
+}
+#Liste3{
+font-family: "Raleway";  
+}            
+#Diplome1{
+font-family: "Raleway";    
+}
+#Diplome2{
+font-family: "Raleway";     
+}
+#DateDiplome1{
+font-family: "Raleway";     
+}
+#DateDiplome2{
+font-family: "Raleway";    
+}
+#Lycee1{
+font-family: "Raleway";     
+}
+#Lycee2{
+font-family: "Raleway";  
+}
+#ListeComp{
+font-family: "Raleway";     
+}
